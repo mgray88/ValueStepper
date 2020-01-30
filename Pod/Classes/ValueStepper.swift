@@ -190,6 +190,31 @@ private enum Button: Int {
 
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(labelPressed(_:)))
         valueLabel.addGestureRecognizer(tapGesture)
+
+        isAccessibilityElement = true
+        accessibilityIdentifier = "Stepper"
+        accessibilityTraits = [.adjustable]
+    }
+
+    // MARK: Accessibility
+
+    open override var accessibilityValue: String? {
+        get {
+            if let intValue = Int(exactly: value) {
+                return intValue.description
+            } else {
+                return value.description
+            }
+        }
+        set { }
+    }
+
+    open override func accessibilityDecrement() {
+        decreaseValue()
+    }
+
+    open override func accessibilityIncrement() {
+        increaseValue()
     }
 
     // MARK: Storyboard preview setup
