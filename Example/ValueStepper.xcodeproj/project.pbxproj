@@ -32,7 +32,7 @@
 		2798EF8AD00C403286093AD1 /* Pods_ValueStepper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValueStepper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E04B2CBB2F82828F2426EC /* Pods_ValueStepper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValueStepper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBE2884F94A8517090C2175 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3262446452082586DAB6DDA1 /* ValueStepper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ValueStepper.podspec; path = ../ValueStepper.podspec; sourceTree = "<group>"; };
+		3262446452082586DAB6DDA1 /* ValueStepper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ValueStepper.podspec; path = ../ValueStepper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42F2EAD57F776A8D9442463C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ValueStepper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValueStepper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
